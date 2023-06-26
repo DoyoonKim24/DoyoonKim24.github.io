@@ -1,11 +1,5 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
 </script>
 
 <template>
@@ -38,7 +32,6 @@ defineProps({
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding-right: 60px;
   padding-top: 160px;
 }
 .links{
@@ -56,6 +49,9 @@ a {
   font-family: "BebasNeue";
 }
 
+h1{
+  text-align: end;
+}
 .circle {
   border-radius: 16px;
   width: 10px;

@@ -5,7 +5,6 @@ import sideBar from './components/sideNavBar.vue'
 </script>
 
 <template>
-  <div id="circularcursor"></div>
   <div class="wrapper">
     <sideBar />
   </div>
@@ -18,14 +17,16 @@ import sideBar from './components/sideNavBar.vue'
 <style scoped>
 .wrapper {
   height: 100vh;
-  width: 33vw;
+  width: 450px;
   position: fixed;
   left: 0;
-  padding:15vh 40px;
+  padding-top: 15vh;
+  padding-left: 40px;
 }
-.content{
-  margin-left: 33vw;
-  width: 67vw;
+
+.content {
   padding: 0px 50px;
+  margin-left: 450px;
+  width: 1062px;
 }
 </style>

@@ -4,7 +4,7 @@
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
-  --vt-c-black: #FFE9C9;
+  --vt-c-beige: #FFEED6;
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
@@ -22,7 +22,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
+    --color-background: var(--vt-c-beige);
   }
 }
 @font-face {
@@ -46,8 +46,23 @@ h2 {
   color:#2B0A02;
   font-size: 48px;
   font-family: "BebasNeue";
-
+  line-height: 48px;
 }
+
+h3 {
+  color:#8F8683;
+  font-size: 20px;
+  font-family: "Helvetica";
+  line-height: 20px;
+}
+
+p {
+  color: #16083C;
+  font-size: 20px;
+  font-family: "Helvetica";
+  line-height: 25px;
+}
+
 *,
 *::before,
 *::after {
