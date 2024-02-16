@@ -1,20 +1,10 @@
 <template>
     <div class="page">
-        <h4 class="section-header">Side Projects</h4>
+        <h4>Side Projects</h4>
         <div class="projects">
-            <a href="/accent-ace" class="project-container">
+            <a href="https://devpost.com/software/pronunciationgo" target="_blank" class="project-container">
                 <div class="img-cont">
-                    <img src="../assets/tapy-co-poster.jpg">
-                </div>
-                <div class="project-description">
-                    <h2>Monkey Type</h2>
-                    <h3 class="project-subject">Software Development</h3>
-                    <h3 class="show-project">Show Project</h3>
-                </div>
-            </a>
-            <a href="/accent-ace" class="project-container">
-                <div class="img-cont">
-                    <img src="../assets/tapy-co-poster.jpg">
+                    <img src="../assets/accentace.png">
                 </div>
                 <div class="project-description">
                     <h2>Accent Ace</h2>
@@ -22,9 +12,19 @@
                     <h3 class="show-project">Show Project</h3>
                 </div>
             </a>
-            <a href="/accent-ace" class="project-container">
+            <a href="https://doyoonkim24.github.io/" target="_blank" class="project-container">
                 <div class="img-cont">
-                    <img src="../assets/tapy-co-poster.jpg">
+                    <img src="../assets/website.png">
+                </div>
+                <div class="project-description">
+                    <h2>Personal Website</h2>
+                    <h3 class="project-subject">Software Development</h3>
+                    <h3 class="show-project">Show Project</h3>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/ablucasrelayforlife/" target="_blank" class="project-container">
+                <div class="img-cont">
+                    <img src="../assets/relay.png">
                 </div>
                 <div class="project-description">
                     <h2>Relay for Life</h2>
@@ -38,12 +38,11 @@
 
 
 <style scoped>
-
 a {
     text-decoration: none;
 }
 .page {
-    padding-bottom: 50px;
+    padding-top: 8vw;
 }
 .img-cont{
     border-radius: 10px 10px 0px 0px;
@@ -57,12 +56,12 @@ img {
 }
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1.5vw;
 }
 
 .project-container {
-    max-height: 300px;
+    max-height: 20vw;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -70,26 +69,25 @@ img {
 
 .project-description {
     background-color: #FFD9CD;
-    padding: 20px 20px 5px 30px;
+    padding: 20px 20px 10px 20px;
     border-radius: 0px 0px 10px 10px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 2.6vw;
     color: #612F24;
 }
 
 .project-subject {
-    font-size: 16px;
     color: #8E5F55;
     transition: 0.2s;
 }
 
 .show-project {
-    font-size: 16px;
     color: #8E5F55;
     opacity: 0;
     transition: 0.2s;
+    line-height: 0.5vw;
 }
 
 .project-container:hover .project-subject {

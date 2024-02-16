@@ -14,23 +14,15 @@ import sideBar from '../components/sideNavBar.vue'
     </div>
     <div class="placeholder"> </div>
     <div class="content">
-      <div>
-        <workView id="work" />
-        <projectsView id="projects" />
-        <expertiseView id="expertise" />
-        <aboutView id="about" />
-      </div>
+      <workView id="work" />
+      <projectsView id="projects" />
+      <expertiseView id="expertise" />
+      <aboutView id="about" />
     </div>
   </div>
 </template>
 
 <style>
-.home {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .wrapper {
   width: 100%;
   height: auto;
@@ -47,7 +39,7 @@ import sideBar from '../components/sideNavBar.vue'
   height: 100%;
   position: fixed;
   left: 0;
-  padding: 15vh 0 7vh 4vw;
+  padding: 8vw 0 4vw 4vw;
 }
 
 .content {

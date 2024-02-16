@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router'
         <div class="circle"></div>
       </div>
       <div class="links">
-        <a href="https://doyoon-kim-resume.tiiny.site/" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:c4e2477f-a348-4028-9db5-06ed5d1a28cd" target="_blank" rel="noopener noreferrer">Resume</a>
         <div class="circle"></div>
       </div>
     </nav>

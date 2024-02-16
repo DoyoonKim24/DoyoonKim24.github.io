@@ -5,15 +5,15 @@
         </div>
         <div class="descSquare">
             <h2>Product Developer</h2>
-            <h3>Feb 2022 - Present</h3>
-            <p>Collaborating with a team of 5 to work through all stages of product development to develop an AI powered
-                resume building tool called ResumAI that launched in mid-October and currently has over 100 000 users.
+            <h3>Feb 2022 - Jun 2023</h3>
+            <p>Collaborated with a team of 5 to work through all stages of product development to develop an AI powered
+               resume building tool called ResumAI that launched in mid-October and currently has over 300 000 users.
             </p>
         </div>
         <div class="descSquare rightAlign">
             <h2>Software Developer Intern</h2>
             <h3>Jul 2022 - Sep 2022</h3>
-            <p class="rightAlign">As a summer intern, I created dozens of end-to-end and unit tests using
+            <p class="rightAlign">Created dozens of end-to-end and unit tests using
                 Cypress and Vue Test Utils respectively to reach 100% test coverage on two of the largest repos for
                 AutoVerify.</p>
         </div>

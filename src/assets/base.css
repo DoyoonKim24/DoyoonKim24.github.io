@@ -61,7 +61,8 @@ h4{
   font-family: "BebasNeue";
   font-weight: 800;
   text-align: center;
-  padding-bottom: 3vw;
+  line-height: 6vw;
+  padding-bottom: 4vw;
 }
 
 p {
@@ -79,11 +80,6 @@ p {
   font-weight: normal;
 }
 
-.page {
-  min-height: 100vh;
-  padding-top: 100px;
-  margin: 0px 16px;
-}
 
 body {
   min-height: 100%;
