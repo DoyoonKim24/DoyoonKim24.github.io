@@ -30,37 +30,45 @@
   src: url('./fonts/BebasNeue.ttf');
 }
 @font-face {
-  font-family: "Anton";
-  src: url('./fonts/Anton.ttf');
+  font-family: "Poppins";
+  src: url('./fonts/Poppins-Regular.ttf');
 }
 
 h1 {
   color:#FF6838;
-  font-size: 152px;
-  line-height:120px;
+  font-size: 10.5vw;
+  line-height: 9vw;
   font-family: "BebasNeue";
   font-weight: 800;
 }
 
 h2 {
-  color:#2B0A02;
-  font-size: 48px;
+  color:#3C1108;
+  font-size: 3vw;
   font-family: "BebasNeue";
-  line-height: 48px;
+  line-height: 3vw;
 }
 
 h3 {
   color:#8F8683;
-  font-size: 20px;
-  font-family: "Helvetica";
-  line-height: 20px;
+  font-size: 1.2vw;
+  font-family: "Poppins";
+}
+
+h4{
+  color:#FF6838;
+  font-size: 7vw;
+  font-family: "BebasNeue";
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 3vw;
 }
 
 p {
-  color: #16083C;
-  font-size: 20px;
-  font-family: "Helvetica";
-  line-height: 25px;
+  color: #3C1108;
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+  font-family: "Poppins";
 }
 
 *,
@@ -71,8 +79,14 @@ p {
   font-weight: normal;
 }
 
-body {
+.page {
   min-height: 100vh;
+  padding-top: 100px;
+  margin: 0px 16px;
+}
+
+body {
+  min-height: 100%;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;

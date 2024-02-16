@@ -1,94 +1,93 @@
 <template>
     <div class="page">
+        <h4 class="section-header">Side Projects</h4>
         <div class="projects">
-            <div class="project-container">
-                <img src="../assets/sample.webp">
+            <a href="/accent-ace" class="project-container">
+                <div class="img-cont">
+                    <img src="../assets/tapy-co-poster.jpg">
+                </div>
                 <div class="project-description">
-                    <h2>Project 1</h2>
-                    <h3 class="project-subject">Web Development</h3>
+                    <h2>Monkey Type</h2>
+                    <h3 class="project-subject">Software Development</h3>
                     <h3 class="show-project">Show Project</h3>
                 </div>
-            </div>
-            <div class="project-container">
-                <img src="../assets/sample.webp">
+            </a>
+            <a href="/accent-ace" class="project-container">
+                <div class="img-cont">
+                    <img src="../assets/tapy-co-poster.jpg">
+                </div>
                 <div class="project-description">
-                    <h2>Project 2</h2>
-                    <h3 class="project-subject">Web Development</h3>
+                    <h2>Accent Ace</h2>
+                    <h3 class="project-subject">Software Development</h3>
                     <h3 class="show-project">Show Project</h3>
                 </div>
-            </div>
-            <div class="project-container">
-                <img src="../assets/sample.webp">
+            </a>
+            <a href="/accent-ace" class="project-container">
+                <div class="img-cont">
+                    <img src="../assets/tapy-co-poster.jpg">
+                </div>
                 <div class="project-description">
-                    <h2>Project 3</h2>
-                    <h3 class="project-subject">Web Development</h3>
+                    <h2>Relay for Life</h2>
+                    <h3 class="project-subject">Graphic Design</h3>
                     <h3 class="show-project">Show Project</h3>
                 </div>
-            </div>
-            <div class="project-container">
-                <img src="../assets/sample.webp">
-                <div class="project-description">
-                    <h2>Project 4</h2>
-                    <h3 class="project-subject">Web Development</h3>
-                    <h3 class="show-project">Show Project</h3>
-                </div>
-            </div>
-            <div class="project-container">
-                <img src="../assets/sample.webp">
-                <div class="project-description">
-                    <h2>Project 5</h2>
-                    <h3 class="project-subject">Web Development</h3>
-                    <h3 class="show-project">Show Project</h3>
-                </div>
-            </div>
-            <div class="project-container">
-                <img src="../assets/sample.webp">
-                <div class="project-description">
-                    <h2>Project 6</h2>
-                    <h3 class="project-subject">Web Development</h3>
-                    <h3 class="show-project">Show Project</h3>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
 </template>
 
 
-<style>
-img {
-    max-width: 100%;
-    border-radius: 10px 10px 0px 0px;
+<style scoped>
+
+a {
+    text-decoration: none;
 }
 .page {
-    min-height: 100vh;
-    padding-top: 100px;
-
+    padding-bottom: 50px;
+}
+.img-cont{
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    overflow: hidden;
+    transition: 0.2s;
 }
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 32px;
+    gap: 1.5vw;
 }
 
 .project-container {
     max-height: 300px;
-    margin: 0px 16px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
 .project-description {
-    background-color: #FFEBA4;
-    padding: 20px 20px 0px 20px;
+    background-color: #FFD9CD;
+    padding: 20px 20px 5px 30px;
     border-radius: 0px 0px 10px 10px;
 }
 
+h2{
+    font-size: 40px;
+    color: #612F24;
+}
+
 .project-subject {
+    font-size: 16px;
+    color: #8E5F55;
     transition: 0.2s;
 }
 
 .show-project {
+    font-size: 16px;
+    color: #8E5F55;
     opacity: 0;
     transition: 0.2s;
 }
@@ -100,7 +99,11 @@ img {
 
 .project-container:hover .show-project {
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
 }
+.project-container:hover img {
+    transform: scale(1.2);
+}
+
 </style>
 
